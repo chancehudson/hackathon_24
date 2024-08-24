@@ -56,6 +56,9 @@ I'd like to build all of these things with equal priority. I'd like to build the
   - [ ] [Spartan2](https://github.com/microsoft/Spartan2)
   - [ ] [snarkjs](https://npm.com/snarkjs)
   - [ ] [arkworks](./.gitignore)
+  - [ ] [nova](https://github.com/microsoft/Nova)
+  - [ ] [dalek/bulletproofs](https://github.com/dalek-cryptography/bulletproofs)
+  - [ ] [vole-zk-prover](https://github.com/holonym-foundation/vole-zk-prover/tree/main)
   - **your prover here**
 - [ ] show information about proving time and circuit size
   - [ ] `tasm` targets
