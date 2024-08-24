@@ -34,6 +34,7 @@ I'd like to build all of these things with equal priority. I'd like to build the
     - `ash` -> calls everything, `tasm` -> calls nothing, `ar1cs` -> calls nothing
 - [ ] r1cs binary file format
   - include [witness instructions](https://github.com/chancehudson/ashlang/tree/main/src/r1cs#symbolic-constraints) in the r1cs file
+- [ ] green checkmark if the prover being targeted is post quantum secure
 
 ### Stretch features
 
