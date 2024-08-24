@@ -79,6 +79,11 @@ I'd like to build all of these things with equal priority. I'd like to build the
     - [ ] optionally include hash of program that was run
     - [ ] optionally include anonymized device information
 
+## Collaboration tools
+
+- [ ] run a git server that _anyone_ can push to
+  - [ ] mirror that server to a github pull request
+
 ## Chore tasks
 
 - [ ] move [scalar field](https://github.com/chancehudson/ashlang/tree/main/src/math) implementations to a separate crate
