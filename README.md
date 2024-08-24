@@ -9,6 +9,12 @@ I'd like to build all of these things with equal priority. I'd like to build the
 - [ ] static webpage with a text entry field
   - [reference experience](https://www.egui.rs/#EasyMarkEditor)
   - [ ] compile single function
+- [ ] vim mode
+  - "i literally won't use it without vim mode ✨" - one prospective user
+  - [ ] insert and visual mode
+  - [ ] reduced set of keys:
+    - `a`, `A`, `i`, `I`, `w`, `W` , `o`, `j`, `k`, `l`, `h`
+    - numbers for repeated sequences
 - [ ] local function directory storage
   - [ ] use indexeddb or similar
   - [ ] export directory tarball
