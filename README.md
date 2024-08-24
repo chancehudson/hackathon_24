@@ -7,6 +7,7 @@ I'd like to build all of these things with equal priority. I'd like to build the
 ## IDE features
 
 - [ ] static webpage with a text entry field
+  - [reference experience](https://www.egui.rs/#EasyMarkEditor)
   - [ ] compile single function
 - [ ] local function directory storage
   - [ ] use indexeddb or similar
@@ -76,6 +77,7 @@ I'd like to build all of these things with equal priority. I'd like to build the
 
 - [ ] show graph visualization of `r1cs` constraint system
 - [ ] analyze `r1cs` signal relationships
+  - [reference experience](https://www.egui.rs/#Demo)
   - [ ] analyze the signal structure and visualize it in a graph?
     - [ ] goal is to provide data for implementing an optimizer
 - [ ] public lists of benchmarks (e.g. recent benchmarks)
