@@ -6,6 +6,13 @@ I'd like to build all of these things with equal priority. I'd like to build the
 
 ## IDE features
 
+- [ ] static webpage with a text entry field
+  - [ ] compile single function
+- [ ] local function directory storage
+  - [ ] use indexeddb or similar
+  - [ ] export directory tarball
+- [ ] getting started scripts
+- [ ] links (repo, information, docs)
 - [ ] compile code as it's written
   - [ ] show a green or red light if compilation succeeds or fails
   - [ ] show messages from the assembler
