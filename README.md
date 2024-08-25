@@ -98,8 +98,9 @@ I'd like to build all of these things with equal priority. I'd like to build the
 
 ## Chore tasks
 
-- [ ] move [scalar field](https://github.com/chancehudson/ashlang/tree/main/src/math) implementations to a separate crate
-  - [ ] curated implementions of each curve _scalar field_ into a single minimal _trait_
+- [x] move [scalar field](https://github.com/chancehudson/ashlang/tree/main/src/math) implementations to a separate crate
+  - [x] curated implementions of each curve _scalar field_ into a single minimal _trait_
+  - [scalarff](https://github.com/chancehudson/scalarff)
 
 ## Interested?
 
