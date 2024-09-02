@@ -6,9 +6,9 @@ I'd like to build all of these things with equal priority. I'd like to build the
 
 ## IDE features
 
-- [ ] static webpage with a text entry field
+- [x] static webpage with a text entry field
   - [reference experience](https://www.egui.rs/#EasyMarkEditor)
-  - [ ] compile single function
+  - [x] compile single function
 - [ ] vim mode
   - "i literally won't use it without vim mode ✨" - one prospective user
   - [ ] insert and visual mode
@@ -20,9 +20,9 @@ I'd like to build all of these things with equal priority. I'd like to build the
   - [ ] export directory tarball
 - [ ] getting started scripts
 - [ ] links (repo, information, docs)
-- [ ] compile code as it's written
+- [x] compile code as it's written
   - [ ] show a green or red light if compilation succeeds or fails
-  - [ ] show messages from the assembler
+  - [x] show messages from the assembler
     - assembler will provide a standard message format
 - [ ] builtin access to the [stdlib](https://github.com/chancehudson/ashlang/tree/main/stdlib)
 - [ ] builtin access to the benchmark library (see below)
