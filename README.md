@@ -6,6 +6,20 @@ I'd like to build all of these things with equal priority. I'd like to build the
 
 ## IDE features
 
+- [ ] static webpage with a text entry field
+  - [reference experience](https://www.egui.rs/#EasyMarkEditor)
+  - [ ] compile single function
+- [ ] vim mode
+  - "i literally won't use it without vim mode ✨" - one prospective user
+  - [ ] insert and visual mode
+  - [ ] reduced set of keys:
+    - `a`, `A`, `i`, `I`, `w`, `W` , `o`, `j`, `k`, `l`, `h`
+    - numbers for repeated sequences
+- [ ] local function directory storage
+  - [ ] use indexeddb or similar
+  - [ ] export directory tarball
+- [ ] getting started scripts
+- [ ] links (repo, information, docs)
 - [ ] compile code as it's written
   - [ ] show a green or red light if compilation succeeds or fails
   - [ ] show messages from the assembler
@@ -27,6 +41,7 @@ I'd like to build all of these things with equal priority. I'd like to build the
     - `ash` -> calls everything, `tasm` -> calls nothing, `ar1cs` -> calls nothing
 - [ ] r1cs binary file format
   - include [witness instructions](https://github.com/chancehudson/ashlang/tree/main/src/r1cs#symbolic-constraints) in the r1cs file
+- [ ] green checkmark if the prover being targeted is post quantum secure
 
 ### Stretch features
 
@@ -48,6 +63,9 @@ I'd like to build all of these things with equal priority. I'd like to build the
   - [ ] [Spartan2](https://github.com/microsoft/Spartan2)
   - [ ] [snarkjs](https://npm.com/snarkjs)
   - [ ] [arkworks](./.gitignore)
+  - [ ] [nova](https://github.com/microsoft/Nova)
+  - [ ] [dalek/bulletproofs](https://github.com/dalek-cryptography/bulletproofs)
+  - [ ] [vole-zk-prover](https://github.com/holonym-foundation/vole-zk-prover/tree/main)
   - **your prover here**
 - [ ] show information about proving time and circuit size
   - [ ] `tasm` targets
@@ -65,6 +83,7 @@ I'd like to build all of these things with equal priority. I'd like to build the
 
 - [ ] show graph visualization of `r1cs` constraint system
 - [ ] analyze `r1cs` signal relationships
+  - [reference experience](https://www.egui.rs/#Demo)
   - [ ] analyze the signal structure and visualize it in a graph?
     - [ ] goal is to provide data for implementing an optimizer
 - [ ] public lists of benchmarks (e.g. recent benchmarks)
@@ -72,10 +91,16 @@ I'd like to build all of these things with equal priority. I'd like to build the
     - [ ] optionally include hash of program that was run
     - [ ] optionally include anonymized device information
 
+## Collaboration tools
+
+- [ ] run a git server that _anyone_ can push to
+  - [ ] mirror that server to a github pull request
+
 ## Chore tasks
 
-- [ ] move [scalar field](https://github.com/chancehudson/ashlang/tree/main/src/math) implementations to a separate crate
-  - [ ] curated implementions of each curve _scalar field_ into a single minimal _trait_
+- [x] move [scalar field](https://github.com/chancehudson/ashlang/tree/main/src/math) implementations to a separate crate
+  - [x] curated implementions of each curve _scalar field_ into a single minimal _trait_
+  - [scalarff](https://github.com/chancehudson/scalarff)
 
 ## Interested?
 
